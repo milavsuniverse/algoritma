@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerimaan siswa baru</title>
+</head>
+<body>
+    <script>
+        let jalur = "prestasi";
+        let nilai = 90;
+
+        if(nilai >= 90 && nilai <=100){
+            console.log("nilai sempurna lolos")
+        }
+        else if (nilai >=75 && nilai < 90){
+            if (jalur == "prestasi"){
+                console.log ("anda lolos melalui jalur prestasi")
+            }
+                else if(jalur == "rapot"){
+                    console.log ("anda lolos melalui jalur rapot")
+                }
+            }
+        else {
+            console.log("anda harus mengikuti tes mandiri")
+        }
+    </script>
+</body>
+</html>
